@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_settings">Settings</string>
+    <string name="admin">Admin Login</string>
+    <string name="mint">Mint Museum</string>
+    <string name="welcome">Welcome to the Mint Museum Application.  In this application you will be able to browse and discover new information about your favorite artwork or artist at the Mint Museum.</string>
+    <string name="begin">Begin App</string>
+    <string name="browseArtist">Browse by Artist</string>
+    <string name="browseArtwork">Browse by Artwork</string>
+    <string name="detail_gallery">Browse the Detail and Gallery view for this artwork.</string>
+    <string name="galleryview">Gallery View</string>
+    <string name="detailview">Detail View</string>
+    <string name="mainImage">Image of the Mint Museum in Charlotte, NC.</string>
+    <string name="title_artist_list">Artist</string>
+    <string name="title_artist_detail">Artist Detail</string>
+    <string name="title_activity_artist">ArtistActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="description">description</string>
+    <string name="artistinfo">Artist Information</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="loginerror">Wrong username or password.  Please try again.</string>
+    <string name="login">Login</string>
+    <string name="addartist">Add Artist</string>
+    <string name="addartwork">Add Artwork</string>
+    <string name="deleteartist">Delete Artist</string>
+    <string name="deleteartwork">Delete Artwork</string>
+    <string name="modifyArtist">Modify Artist</string>
+    <string name="modifyArtwork">Modify Artwork</string>
+    <string name="addUser">Add User</string>
+    <string name="info">Get Info</string>
+    <string name="changePass">Change Password</string>
+    <string name="signedInAs">SIGNED IN AS:</string>
+    <string name="userNameLabel">User Name:</string>
+    <string name="passwordLabel">Password:</string>
+    <string name="emailLabel">Email:</string>
+    <string name="dialog_hint_userName">"User Name "</string>
+    <string name="dialog_hint_password">Password</string>
+    <string name="dialog_hint_email">Email</string>
+    <string name="artistname">Artist Name</string>
+    <string name="artworkname">Artwork Name</string>
+    <string name="preset1">Preset 1</string>
+    <string name="preset2">Preset 2</string>
+    <string name="preset3">Preset 3</string>
+    <string name="preset4">Preset 4</string>
+    <string name="grayscale">Gray Scale</string>
+    <string name="reset">Reset</string>
+    <string name="addFilter_Label">Add Filter Preset</string>
+    <string name="addDetailView">Add DetailView</string>
+    <string name="title_activity_filter_preset_maker">FilterPresetMaker</string>
+    <string name="savePreset">Save Preset</string>
+    <string name="title_activity_detail_view_maker">DetailViewMaker</string>
+
+</resources>

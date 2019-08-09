@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/atmosphere"
+    android:padding="5dip" >
+ 
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_bg"
+        android:layout_marginRight="5dip">
+ 
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/mint" />
+ 
+    </LinearLayout>
+ 
+    <!-- Title Of Song-->
+ 
+ 	<TextView
+         android:id="@+id/artName"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/thumbnail"
+         android:layout_toRightOf="@+id/thumbnail"
+         android:text="Artist Name"
+         android:textColor="@color/artpaper"
+         android:textSize="18sp"
+         android:textStyle="bold"
+         android:typeface="sans" />
+    <!-- Rightend Duration -->
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/artName"
+        android:gravity="right"
+        android:text="1700"
+        android:layout_marginRight="5dip"
+        android:textSize="12sp"
+         android:textColor="@color/artpaper"
+        android:textStyle="bold"/>
+ 
+     <!-- Rightend Arrow -->
+     <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+     
+      <!-- Artist Name -->
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/artName"
+         android:textColor="@color/artpaper"
+        android:textSize="14sp"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Country..." />
+ 
+</RelativeLayout>

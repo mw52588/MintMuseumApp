@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_add_parent_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/atmosphere"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+ 
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_bg"
+        android:layout_marginRight="5dip">
+ 
+        <ImageView
+            android:id="@+id/thumbn"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/mint" />
+ 
+    </LinearLayout>
+ 
+    <!-- Title Of Song-->
+ 
+ 	<TextView
+ 	    android:id="@+id/dialog_arworkName"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignTop="@+id/thumbnail"
+ 	    android:layout_toRightOf="@+id/thumbnail"
+ 	    android:text="Artwork Name"
+ 	    android:textColor="@color/artpaper"
+ 	    android:textSize="18sp"
+ 	    android:textStyle="bold"
+ 	    android:typeface="sans" />
+
+    <!-- Rightend Duration -->
+ 
+     <!-- Rightend Arrow -->
+     <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+     
+      <!-- Artist Name -->
+
+    <TextView
+        android:id="@+id/dialog_byArtist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_arworkName"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="By: "
+        android:textColor="@color/artpaper"
+        android:textSize="14sp" />
+ 
+</RelativeLayout>

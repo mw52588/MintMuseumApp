@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="artpaper">#F1F2EB</color>
+    <color name="theway">#BBCCBC</color>
+    <color name="nile">#D6E6CC</color>
+    <color name="three24">#AADDD6</color>
+    <color name="avengerBlue">#3A8FC6</color>
+    <color name="darkblue">#003399</color>
+    <color name="atmosphere">#2D3A3E</color>
+    <color name="androides">#BDBCA5</color>
+    <color name="bluedroid">#1795A8</color>
+    <color name="lightblue">#6AB8B8</color>
+    <color name="lighterblue">#A1DBC0</color>
+    <color name="blue_base">#72C5C5</color>
+ 	<color name="blue_stroke">#2F6699</color>
+ 	<color name="blue_gradientS">#00a2e2</color>
+ 	<color name="blue_gradientE">#0767a4</color>
+   
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.museum"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Mintapp" >
+        <activity
+            android:name="com.museum.MainActivity"
+            android:label="Mint Museum" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.museum.DetailViewActivity"
+            android:label="Mint Museum" >
+        </activity>
+        <activity
+            android:name="com.museum.GalleryViewActivity"
+            android:label="Mint Museum" >
+        </activity>
+        <activity
+            android:name="com.museum.FullScreenImageActivity"
+            android:label="Mint Museum" >
+        </activity>
+        <activity
+            android:name="com.museum.DetailActivity"
+            android:label="Mint Museum" >
+        </activity>
+        <activity
+            android:name="com.museum.BrowseArtwork"
+            android:label="Mint Museum" >
+        </activity>
+        <activity
+            android:name="com.museum.ArtistActivity"
+            android:label="Mint Museum" >
+        </activity>
+        <activity
+            android:name="com.museum.AdminActivity"
+            android:label="Mint Museum" >
+        </activity>
+        <activity
+            android:name="com.museum.AdminInterfaceActivity"
+            android:label="Mint Museum" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.museum.TabViewActivity"
+            android:label="Mint Museum" >
+        </activity>
+        <activity
+            android:name="com.museum.ArtworkDetailActivity"
+            android:label="Mint Museum" >
+        </activity>
+        <activity
+            android:name="com.museum.ArtistDetailActivity"
+            android:label="Mint Museum" >
+        </activity>
+        <activity
+            android:name="com.museum.ImageActivity"
+            android:label="Mint Museum" >
+        </activity>
+        <activity
+            android:name="com.museum.FilterPresetMaker"
+            android:label="Mint Museum"
+            android:hardwareAccelerated="false" >
+        </activity>
+        
+          <activity
+            android:name="com.museum.DetailViewMaker"
+            android:label="@string/title_activity_detail_view_maker" >
+        </activity>
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+      
+    </application>
+
+</manifest>

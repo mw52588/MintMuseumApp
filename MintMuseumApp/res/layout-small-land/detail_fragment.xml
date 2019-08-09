@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="#000"
+    android:orientation="vertical" >
+
+    <com.museum.CoverFlow
+        android:id="@+id/gallery1"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="#fff" />
+
+     <Button
+         android:id="@+id/selectedButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:background="@drawable/blue_menu_btn"
+         android:padding="5dp"
+         android:text="Button"
+         android:textColor="#fff"
+         android:textSize="18sp" />
+
+</LinearLayout>
